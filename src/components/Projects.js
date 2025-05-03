@@ -1,17 +1,17 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project1.jpg"
+import projImg1 from "../assets/img/ProjectImg1.png"
+import projImg2 from "../assets/img/project2.jpg";
+import projImg3 from "../assets/img/project03.png.png";
+import projImg4 from "../assets/img/project4.png.png";
 
-import projImg3 from "../assets/img/project3.jpg";
-import projImg5 from "../assets/img/project5.jpg";
-import projImg6 from "../assets/img/project6.jpg";
 import certImg1 from "../assets/img/certImg1.png";
 import certImg2 from "../assets/img/certImg2.jpg"
-import certImg3 from "../assets/img/certImg3.png";
-import certImg4 from "../assets/img/certImg4.jpg"
+import certImg3 from "../assets/img/certImg3.jpg";
+import certImg4 from "../assets/img/certImg4.png.jpg"
 import certImg5 from "../assets/img/certImg5.jpg"
-import certImg6 from "../assets/img/certImg6.jpg"
-import certImg7 from"../assets/img/certImg7.png.jpg"
+import certImg6 from "../assets/img/certImg6.png.jpg"
+import certImg7 from"../assets/img/certImg7.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 import 'animate.css';
@@ -21,19 +21,24 @@ import { Paragraph } from "react-bootstrap-icons";
 export const Projects = () => {
   const projects = [
     {
-      title: "Amazon Clone",
+      title: "Smart Weather Web App with Chatbot & Voice Assistant 🎤🤖",
       description: "Design & Development",
       imgUrl: projImg1,
     },
     {
       title: "Hospital-Management-System",
       description: "Design & Development",
-      imgUrl: projImg5,
+      imgUrl: projImg2,
     },
     {
       title: "Quiz & learning Platform",
       description: "Design & Development",
       imgUrl: projImg3,
+    },
+    {
+      title: "Amazon-Clone",
+      description: "Design & Development",
+      imgUrl: projImg4,
     },
   ];
 
@@ -53,12 +58,12 @@ export const Projects = () => {
     {
       title: "Linkedin Learning",
       description: "Career Essentials in Gen-AI",
-      imgUrl: certImg4,
+      imgUrl: certImg3,
     },
     {
       title: "Web Development Fundamentals",
       description: "IBM SkillsBuild",
-      imgUrl: certImg7,
+      imgUrl: certImg4,
      
     },
     {
@@ -76,7 +81,7 @@ export const Projects = () => {
     {
       title: "Open University",
       description: "Effective Communication",
-      imgUrl: certImg3,
+      imgUrl: certImg7,
     },
     
   ];
