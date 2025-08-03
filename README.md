@@ -1,15 +1,19 @@
-# Personal Portfolio Website in React
+# 🚀 Personal Portfolio Website in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive, modern personal portfolio website built using React.js, React-Bootstrap, and Animate.css. This portfolio is designed to showcase your projects, skills, and contact information in a visually appealing and professional layout.
 
+✨ Live Demo <br>
+🌐 View Live Portfolio (https://rohit-portfolio-in.netlify.app/)
 
-Built using:
+## 📸 Screenshots
+![screenshot](screenshots/banner.png) 
 
-- Front-end library: React
-- CSS framework: React-bootstrap
-- CSS animations library: Animate.css
-
-In the /personal-portfolio, you can run:
+# 🛠️ Tech Stack
+Technology	Description <br>
+React.js	Front-end library for building UI<br>
+React-Bootstrap	Responsive UI components & layouts<br>
+Animate.css	CSS Animation Library<br>
+EmailJS (optional)	For contact form email integration<br>
 
 ### `npm start`
 
