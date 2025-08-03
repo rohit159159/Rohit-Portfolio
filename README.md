@@ -6,7 +6,7 @@ A responsive, modern personal portfolio website built using React.js, React-Boot
 🌐 View Live Portfolio (https://rohit-portfolio-in.netlify.app/)
 
 ## 📸 Screenshots
-![screenshot](screenshots/banner.png) 
+![screenshot](https://github.com/rohit159159/Rohit-Portfolio/blob/2a6f91f3277aa5510e5d62fa0389e103d7a411be/portfolio2025-08-03%20210822.png )
 
 # 🛠️ Tech Stack
 Technology	Description <br>
