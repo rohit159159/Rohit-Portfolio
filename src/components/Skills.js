@@ -4,7 +4,7 @@ import meter3 from "../assets/img/meter3.svg";
 import meter4 from "../assets/img/meter4.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import colorSharp from "../assets/img/color-sharp.png";
+import colorSharp from "../assets/img/background03.png";
 import experienceIcon from "../assets/img/experience.png"; // Use the correct image name
 import educationIcon from "../assets/img/education.png"; // Use the correct image name
 import { Link } from "react-bootstrap-icons";

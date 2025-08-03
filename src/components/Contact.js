@@ -1,11 +1,11 @@
 
-
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact3-img.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import emailjs from 'emailjs-com';
+
 
 export const Contact = () => {
   const formInitialDetails = {

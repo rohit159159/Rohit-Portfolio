@@ -234,7 +234,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: -25px;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/background-optional.jpg');
+  background-image: url('./assets/img/background03.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -335,10 +335,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto 15px auto;
 }
 .background-image-left {
-  top: 28%;
+  top: 0%;
   position: absolute;
   bottom: 0;
-  width: 40%;
+  width: 100%;
   z-index: -4;
 }
 .experience {
@@ -409,6 +409,7 @@ padding: 0 0 20px 80px;
   padding: 80px 0;
   position: relative;
   background-color: black;
+  
 }
 
 
@@ -539,7 +540,7 @@ padding: 0 0 20px 80px;
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); 
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -617,19 +618,43 @@ padding: 0 0 20px 80px;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.newsletter-bx h3 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 1.2em;
+}
 .newsletter-bx {
-  background: #FFFFFF;
+  background-image: url('./assets/img/banner-bg.png');
   border-radius: 55px;
   color: #121212;
   padding: 85px 125px;
   margin-bottom: 80px;
   margin-top: -122px;
 }
-.newsletter-bx h3 {
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  line-height: 1.2em;
+
+ .newsletter-rocket {
+  width: 100%;
+  position: relative;
+  height: 40px;
+  z-index: 2;
+  margin: 40px 0 0 0; /* move it further down if needed */
 }
+
+.newsletter-rocket img {
+  width: 60px;
+  height: auto;
+  position: absolute;
+  top: -200px;
+  right: 0;
+  animation: rocket-move-rtl 6s linear infinite;
+}
+
+@keyframes rocket-move-rtl {
+  0%   { right: 0; }
+  100% { right: 76%; }
+}
+ /**/
 .new-email-bx {
   background: #fff;
   padding: 5px;
@@ -696,3 +721,8 @@ padding: 0 0 20px 80px;
   size: 100%;
 }
 
+@media  (max-width: 768px) {
+  .newsletter-rocket img{
+    margin-top: 140px;
+  }
+}
