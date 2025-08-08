@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Java Developer", "Web Developer", "UI/UX Designer" ];
+  const toRotate = [ "Web Developer", "Java Developer", "UI/UX Designer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Rohit`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Java developer", "Web Developer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I'm a Full-stack developer doesn't just write code,they craft solution. "The beauty of full-stack development is in the blend of art and logic,in designing a user-friendly front-end and building a seamless back-end!.</p>
+                  <p>"As a Software Developer, I don’t just write code — I craft solutions. The true beauty of development lies in blending creativity with logic, designing intuitive, user-focused interfaces, and building robust, scalable back-end systems that work seamlessly together."!.</p>
                   <button onClick={() => console.log('connect') }>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
