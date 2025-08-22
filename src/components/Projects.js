@@ -48,6 +48,13 @@ export const Projects = () => {
       description: "Shreyians Coding School",
       imgUrl: certImg1,
     },
+
+     {
+      title: "Oracle Certified Foundations Associate",
+      description: "Oracle University",
+      imgUrl: CertificateORACLE.pdf,
+    },
+    
     {
       title: "AWS Cloud Practitioner",
       description: "RamrajTech",
